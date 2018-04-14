@@ -74,3 +74,63 @@ html,
     background-color: #F0F5F9;
     color: skyblue;
 }
+
+.header {
+    display: flex;
+    height: 45px;
+    background: #EB3B47;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.h_left {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h_left i {
+    font-style: normal;
+}
+
+.shouye,
+.down,
+.zhong {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input {
+    width: 65%;
+    height: 70%;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.nav {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav div {
+    flex: 1;
+    text-align: center;
+}
+
+.xia {
+    font-size: 12px;
+    color: #ccc;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.show {
+    color: red;
+}
